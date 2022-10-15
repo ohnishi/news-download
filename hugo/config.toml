@@ -1,0 +1,57 @@
+baseurl = "https://nahaha.app"
+title = "話題の人"
+languageCode = "ja-jp"
+defaultContentLanguage = "ja-jp"
+paginate = "3" # Number of posts per page
+theme = "mainroad"
+disqusShortname = "" # Enable comments by entering your Disqus shortname
+googleAnalytics = "" # Enable Google Analytics by entering your tracking id
+publishDir = "public"
+canonifyurls = true
+
+[Author] # Used in authorbox
+  name = "ohnishi"
+  bio = "John Doe's true identity is unknown. Maybe he is a successful blogger or writer. Nobody knows it."
+  avatar = "img/avatar.png"
+
+[Params]
+  subtitle = "2chとYahoo!ニュースで話題の人をランキング化" # Subtitle of your site. Used in site header
+  description = "2chとYahoo!ニュースで話題の人をランキング化" # Site description. Used in meta description
+  copyright = "nahaha.app" # copyright holder, otherwise will use site title
+  opengraph = false # Enable OpenGraph if true
+  twitter_cards = true # Enable Twitter Cards if true
+  readmore = false # Show "Read more" button in list if true
+  authorbox = false # Show authorbox at bottom of pages if true
+  toc = false # Enable Table of Contents
+  post_navigation = true # Show post navigation at bottom of pages if true
+  post_meta = ["date", "categories", "translations"] # Order of post meta information
+  #mainSections = ["post", blog", "news"] # specify section pages to show on home page and the "Recent articles" widget
+  dateformat = "2006-01-02" # change the format of dates
+  mathjax = false # Enable MathJax
+  #mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" # Specify MathJax path
+  #mathjaxConfig = "TeX-AMS-MML_HTMLorMML" # Specify MathJax config
+  highlightColor = "#093875" # Override highlight color
+  customCSS = ["css/custom.css"] # Include custom CSS files
+
+[Params.sidebar]
+  home = "right" # Configure layout for home page
+  list = "right"  # Configure layout for list pages
+  single = false # Configure layout for single pages
+  # Enable widgets in given order
+  widgets = ["search", "recent", "categories", "taglist", "social", "languages"]
+
+[Params.widgets]
+  recent_num = 3 # Set the number of articles in the "Recent articles" widget
+  tags_counter = false # Enable counter for each tag in "Tags" widget (disabled by default)
+
+[Params.widgets.social]
+  # Enable parts of social widget
+  # facebook = "username"
+  twitter = "nahaha_app"
+  # instagram = "username"
+  # linkedin = "username"
+  # telegram = "username"
+  # github = "ohnishi"
+  # gitlab = "username"
+  # bitbucket = "username"
+  email = "nahaha.app@icloud.com"
